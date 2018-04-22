@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,7 +22,7 @@ namespace LargestPalindrome
                     if (CheckIfPalindrome(product))
                     {
                         resultCount++;
-                        Console.WriteLine(i + "x" + j + "=" + product);
+                        //Console.WriteLine(i + "x" + j + "=" + product);
                         if (product > largestProduct)
                         {
                             largestProduct = product;
